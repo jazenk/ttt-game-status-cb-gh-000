@@ -62,6 +62,4 @@ end
 def winner? (board)
   if won?(board)
     puts win_combination[0]
-  else
-    nil
 end
