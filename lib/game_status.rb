@@ -61,5 +61,6 @@ end
 
 def winner (board)
   winning_index = won?(board)
-  puts winning_index
+  tokens = board[winning_index]
+  puts token[0]
 end
