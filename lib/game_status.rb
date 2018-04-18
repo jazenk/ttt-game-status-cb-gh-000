@@ -61,5 +61,7 @@ end
 
 def winner (board)
   winning_combo = won?(board)
+  first = winning_combo[0]
+  puts board[first]
 
 end
