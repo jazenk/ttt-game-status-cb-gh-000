@@ -60,7 +60,6 @@ def over? (board)
 end
 
 def winner (board)
-  if won?(board)
-    puts "X"
-  end
+  winning_index = won?(board)
+  puts winning_index
 end
