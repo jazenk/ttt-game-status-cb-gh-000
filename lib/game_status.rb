@@ -35,3 +35,13 @@ def won?
   end
   end
 end
+
+def full? (board)
+  full_board = true
+  board.all? do |i|
+    if i == " " || i == "" || i == nil
+      full_board = false
+    end
+    full_board
+end
+
