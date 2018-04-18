@@ -40,3 +40,10 @@ def full? (board)
     check_space == "X" || check_space == "O"
   end
 end
+
+def draw? (board)
+  if won?(board) == false && full?(board) == false
+    true
+  else
+    false
+end
