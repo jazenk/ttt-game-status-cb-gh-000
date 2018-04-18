@@ -34,3 +34,9 @@ def won? (board)
 else
   false
 end
+
+def full? (board)
+  board.all? do |check_space|
+    check_space == "X" || check_space == "O"
+  end
+end
