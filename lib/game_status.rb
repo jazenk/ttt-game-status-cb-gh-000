@@ -62,6 +62,7 @@ end
 def winner (board)
   if won?(board)
     winning_index = won?(board)
-    puts board[winning_index[0]]
+    token = winning_index[0]
+    puts board[token]
   end
 end
