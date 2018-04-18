@@ -42,5 +42,6 @@ def full? (board)
     if i == " " || i == "" || i == nil
       full_board = false
     end
-    full_board
+  end
+  full_board
 end
