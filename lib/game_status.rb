@@ -59,7 +59,7 @@ def over? (board)
   end
 end
 
-def winner? (board)
+def winner (board)
   if won?(board)
     puts win_combination[0]
   end
