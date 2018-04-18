@@ -15,5 +15,5 @@ WIN_COMBINATIONS = [
 ]
 
 def won? (board)
-  
+
 end
