@@ -44,4 +44,3 @@ def full? (board)
     end
     full_board
 end
-
